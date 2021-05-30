@@ -11,6 +11,8 @@
 		1437EBC9266171EC0098FCAC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1437EBC8266171EC0098FCAC /* ContentView.swift */; };
 		1437EBCB266171EF0098FCAC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1437EBCA266171EF0098FCAC /* Assets.xcassets */; };
 		1437EBCE266171EF0098FCAC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1437EBCD266171EF0098FCAC /* Preview Assets.xcassets */; };
+		1437EBD9266172A60098FCAC /* PlayfairDisplay-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1437EBD7266172A60098FCAC /* PlayfairDisplay-Bold.ttf */; };
+		1437EBDA266172A60098FCAC /* PlayfairDisplay-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1437EBD8266172A60098FCAC /* PlayfairDisplay-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		1437EBCA266171EF0098FCAC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1437EBCD266171EF0098FCAC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1437EBCF266171EF0098FCAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1437EBD7266172A60098FCAC /* PlayfairDisplay-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PlayfairDisplay-Bold.ttf"; sourceTree = "<group>"; };
+		1437EBD8266172A60098FCAC /* PlayfairDisplay-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PlayfairDisplay-Regular.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +56,7 @@
 		1437EBC5266171EC0098FCAC /* FurnitureUI */ = {
 			isa = PBXGroup;
 			children = (
+				1437EBD6266172A60098FCAC /* Fonts */,
 				1437EBC6266171EC0098FCAC /* FurnitureUIApp.swift */,
 				1437EBC8266171EC0098FCAC /* ContentView.swift */,
 				1437EBCA266171EF0098FCAC /* Assets.xcassets */,
@@ -67,6 +72,15 @@
 				1437EBCD266171EF0098FCAC /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1437EBD6266172A60098FCAC /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				1437EBD7266172A60098FCAC /* PlayfairDisplay-Bold.ttf */,
+				1437EBD8266172A60098FCAC /* PlayfairDisplay-Regular.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,6 +140,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1437EBDA266172A60098FCAC /* PlayfairDisplay-Regular.ttf in Resources */,
+				1437EBD9266172A60098FCAC /* PlayfairDisplay-Bold.ttf in Resources */,
 				1437EBCE266171EF0098FCAC /* Preview Assets.xcassets in Resources */,
 				1437EBCB266171EF0098FCAC /* Assets.xcassets in Resources */,
 			);
@@ -197,7 +213,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -252,7 +268,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -280,7 +296,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.FurnitureUI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -302,7 +318,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.FurnitureUI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
