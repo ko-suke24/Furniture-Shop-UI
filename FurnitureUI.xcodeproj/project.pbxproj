@@ -13,6 +13,8 @@
 		1437EBCE266171EF0098FCAC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1437EBCD266171EF0098FCAC /* Preview Assets.xcassets */; };
 		1437EBD9266172A60098FCAC /* PlayfairDisplay-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1437EBD7266172A60098FCAC /* PlayfairDisplay-Bold.ttf */; };
 		1437EBDA266172A60098FCAC /* PlayfairDisplay-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1437EBD8266172A60098FCAC /* PlayfairDisplay-Regular.ttf */; };
+		1437EBDF266821DC0098FCAC /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1437EBDE266821DC0098FCAC /* HomeScreen.swift */; };
+		1437EBE1266822610098FCAC /* Details Screen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1437EBE0266822610098FCAC /* Details Screen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		1437EBCF266171EF0098FCAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1437EBD7266172A60098FCAC /* PlayfairDisplay-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PlayfairDisplay-Bold.ttf"; sourceTree = "<group>"; };
 		1437EBD8266172A60098FCAC /* PlayfairDisplay-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PlayfairDisplay-Regular.ttf"; sourceTree = "<group>"; };
+		1437EBDE266821DC0098FCAC /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
+		1437EBE0266822610098FCAC /* Details Screen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Details Screen.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,7 @@
 		1437EBC5266171EC0098FCAC /* FurnitureUI */ = {
 			isa = PBXGroup;
 			children = (
+				1437EBDD266821C20098FCAC /* Screens */,
 				1437EBD6266172A60098FCAC /* Fonts */,
 				1437EBC6266171EC0098FCAC /* FurnitureUIApp.swift */,
 				1437EBC8266171EC0098FCAC /* ContentView.swift */,
@@ -81,6 +86,15 @@
 				1437EBD8266172A60098FCAC /* PlayfairDisplay-Regular.ttf */,
 			);
 			path = Fonts;
+			sourceTree = "<group>";
+		};
+		1437EBDD266821C20098FCAC /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				1437EBDE266821DC0098FCAC /* HomeScreen.swift */,
+				1437EBE0266822610098FCAC /* Details Screen.swift */,
+			);
+			path = Screens;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -155,7 +169,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				1437EBC9266171EC0098FCAC /* ContentView.swift in Sources */,
+				1437EBE1266822610098FCAC /* Details Screen.swift in Sources */,
 				1437EBC7266171EC0098FCAC /* FurnitureUIApp.swift in Sources */,
+				1437EBDF266821DC0098FCAC /* HomeScreen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
